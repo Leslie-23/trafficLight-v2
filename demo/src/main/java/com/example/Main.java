@@ -68,7 +68,7 @@ public class TrafficLightSimulation extends JFrame {
         }
     }
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         SwingUtilities.invokeLater(TrafficLightSimulation::new);
     }
 }
